@@ -1,0 +1,41 @@
+{
+  "name": "SynthesiaN",
+  "description": "SynthesiaNbot.",
+  "keywords": [
+    "telegram",
+    "best",
+    "video",
+    "Synthesia"
+  ],
+  "success_url": "https://github.com/SJ-Lynx/SynthesiaN",
+  "website": "https://t.me/SJa_bots",
+  "repository": "https://github.com/SJ-Lynx/SynthesiaN",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-20",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
