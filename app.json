@@ -11,18 +11,6 @@
   "website": "https://t.me/SJa_bots",
   "repository": "https://github.com/SJ-Lynx/SynthesiaN",
   "env": {
-    "BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
-    }
   },
   "addons": [
   ],
